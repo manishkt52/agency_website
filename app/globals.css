@@ -65,3 +65,13 @@ body {
   border-radius: 9999px;
   filter: blur(120px);
 }
+
+/* Navbar glow animation */
+@keyframes pulseGlow {
+  0%,100% {
+    box-shadow: 0 0 15px rgba(249,115,22,.2);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(249,115,22,.4);
+  }
+}
